@@ -166,7 +166,14 @@ aside h3 {
     padding-bottom: .25em;
 }
 aside {
-    float: left;
+    float: left 100px;
+    float: up 100 px;
+    position: relative;
+    padding-bottom: 2em;
+}
+aside2 {
+    float: left 200px;
+    float: up 200 px;
     position: relative;
     padding-bottom: 2em;
 }
