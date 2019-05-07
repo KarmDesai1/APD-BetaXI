@@ -42,6 +42,10 @@ header img {
     float: left;
     padding: 0 30px;
 }
+div.static {
+    position: static;
+    border: 3px solid #73AD21;
+}
 .shadow {
     text-shadow: 2px 2px 2px #800000;
 }
@@ -161,7 +165,9 @@ aside h3 {
     font-size: 105%;
     padding-bottom: .25em;
 }
-aside img {
+aside {
+    float: left;
+    position: relative;
     padding-bottom: 2em;
 }
 
